@@ -1,124 +1,231 @@
 # 🤖 AI-Based College Information Assistance Chatbot
 
-An AI-powered virtual assistant developed for **Dr. Ambedkar Institute of Technology** to provide students, faculty, and administrators with instant access to academic and administrative information. The chatbot uses **Natural Language Processing (NLP)** and **OpenRouter LLMs** to understand user queries and retrieve relevant information from a college database.
+<h3 align="center">
+🎓 Welcome to the AI-Based College Information Assistance Chatbot Repository 🎓
+</h3>
+
+<p align="center">
+An AI-powered virtual assistant designed to help students, faculty, and administrators access college information instantly using Artificial Intelligence and Natural Language Processing.
+</p>
+
+<p align="center">
+⭐ If you find this project useful, don't forget to Star this repository! ⭐
+</p>
 
 ---
 
-## 📌 Features
+# 📖 About the Project
 
-- 🤖 AI-powered conversational chatbot
-- 🎤 Voice input using Speech-to-Text
-- 🔊 Voice output using Text-to-Speech
+The **AI-Based College Information Assistance Chatbot** is an intelligent web application developed for **Dr. Ambedkar Institute of Technology**. It enables users to retrieve academic and administrative information through natural language conversations.
+
+The chatbot leverages **Flask**, **SQLite**, **OpenRouter Large Language Models (LLMs)**, and **Natural Language Processing (NLP)** to provide an interactive, efficient, and user-friendly experience.
+
+---
+
+# ✨ Features
+
+- 🤖 AI-Powered Chatbot
+- 🎤 Voice Input (Speech-to-Text)
+- 🔊 Voice Output (Text-to-Speech)
 - 📚 Study Materials
 - 📅 Timetable Information
 - 📖 Syllabus Access
-- 📰 Latest Updates
 - 🎓 Student Result Retrieval
 - 👨‍🏫 Faculty Information
-- 🔐 Admin Portal
 - 📊 Attendance Management
+- 🔐 Admin Portal
+- 📰 Latest College Updates
 - 🗄 SQLite Database Integration
+- 💬 Natural Language Query Processing
 
 ---
 
-## 🏗 System Architecture
+# 🏗️ System Architecture
 
-```
-User
-   │
-   ▼
-Frontend (HTML/CSS/JavaScript)
-   │
-   ▼
-Flask Backend
-   │
-   ├──────────────► SQLite Database
-   │
-   └──────────────► OpenRouter AI API
+```text
+                    +--------------------+
+                    |       User         |
+                    +---------+----------+
+                              |
+                              ▼
+             +--------------------------------+
+             | HTML | CSS | JavaScript Frontend |
+             +----------------+---------------+
+                              |
+                              ▼
+                     +----------------+
+                     | Flask Backend  |
+                     +--------+-------+
+                              |
+              +---------------+----------------+
+              |                                |
+              ▼                                ▼
+      +---------------+             +----------------------+
+      | SQLite DB     |             | OpenRouter AI (LLM) |
+      +---------------+             +----------------------+
 ```
 
 ---
 
-## 🛠 Technologies Used
+# 🛠️ Technologies Used
 
-### Programming Languages
+## Programming Languages
 
 - Python
-- JavaScript
 - HTML5
 - CSS3
+- JavaScript
 - SQL
 
-### Frameworks
+## Framework
 
 - Flask
 
-### Database
+## Database
 
 - SQLite
 
-### AI
+## Artificial Intelligence
 
 - OpenRouter API
 - Large Language Models (LLMs)
+- Natural Language Processing (NLP)
 
-### Hardware
+## Hardware (Prototype)
 
 - Raspberry Pi 4B
-- Microphone
+- USB Microphone
 - Speaker
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
-ai-based-college-information-assistance-chatbot/
+```text
+AI-based-college-information-assistance-chatbot/
 │
+├── screenshots/
+├── static/
+├── templates/
+├── .env.example
+├── .gitignore
+├── Procfile
+├── README.md
 ├── app.py
 ├── db3.db
-├── requirements.txt
-├── README.md
-├── templates/
-├── static/
-│
-└── screenshots/
+└── requirements.txt
 ```
 
 ---
 
-## 🏠 Home Page
+# 🚀 Installation
 
-![Home Page](screenshots/homepage.png)
+### Clone the Repository
+
+```bash
+git clone https://github.com/SohankumarA24/AI-based-college-information-assistance-chatbot.git
+```
+
+### Move into the Project Directory
+
+```bash
+cd AI-based-college-information-assistance-chatbot
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Application
+
+```bash
+python app.py
+```
+
+### Open in Browser
+
+```
+http://127.0.0.1:5000
+```
 
 ---
 
-## 💡 Future Enhancements
-
-- ERP Integration
-- Multi-language Support
-- Mobile Application
-- Student Authentication with SSO
-- Cloud Database
-- AI-powered Analytics
-
----
-
-## 👨‍💻 Authors
-
-- Sohan kumar A
-- Mohan D
-- Naveen Araganji
-- Nithin N J
-
----
-
-## 📜 Publication Certificate
-
-This project was published in the **International Journal of Scientific Research in Engineering & Management (IJSREM).**
+# 🏠 Project Screenshot
 
 <p align="center">
-  <img src="screenshots/sohan_certificate.jpeg" alt="Publication Certificate" width="900">
+<img src="screenshots/homepage.png" width="900">
 </p>
 
 ---
+
+# 💡 Future Enhancements
+
+- 🌐 ERP Integration
+- 🌍 Multi-language Support
+- 📱 Android & iOS Mobile Application
+- 🔑 Student Authentication using SSO
+- ☁️ Cloud Database Integration
+- 📊 AI Analytics Dashboard
+- 🤖 Personalized Student Assistant
+
+---
+
+# 📄 Research Publication
+
+This project has been successfully published in the **International Journal of Scientific Research in Engineering & Management (IJSREM).**
+
+## 📚 Publication Details
+
+**Paper Title:**  
+**AI-Based College Information Assistance Chatbot**
+
+**Journal:** International Journal of Scientific Research in Engineering & Management (IJSREM)
+
+**Volume:** 09
+
+**Issue:** 12
+
+**Publication Date:** December 2025
+
+---
+
+## 📜 Certificate of Publication
+
+<p align="center">
+<img src="screenshots/sohan_certificate.jpeg" width="900">
+</p>
+
+---
+
+# 👨‍💻 Authors
+
+- **Sohan Kumar A**
+- **Mohan D**
+- **Naveen Araganji**
+- **Nithin N J**
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+# 📬 Contact
+
+**Author:** Sohan Kumar A
+
+📧 Email: *sohankumar2580369@gmail.com*
+
+🐙 GitHub: https://github.com/SohankumarA24
+
+---
+
+<p align="center">
+
+### ❤️ Made with Flask • SQLite • OpenRouter AI • NLP ❤️
+
+</p>
