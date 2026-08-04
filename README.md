@@ -113,12 +113,12 @@ ai-based-college-information-assistance-chatbot/
 
 ---
 
-## 📄 Publication
+## 📜 Publication Certificate
 
-Our research work has been published, and the publication certificate is shown below.
+This project was published in the **International Journal of Scientific Research in Engineering & Management (IJSREM).**
 
-### 📜 Certificate of Publication
-
-![Certificate of Publication](screenshots/certificate.png)
+<p align="center">
+  <img src="screenshots/sohan_certificate.jpeg" alt="Publication Certificate" width="900">
+</p>
 
 ---
