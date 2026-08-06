@@ -16,7 +16,7 @@ OPENROUTER_API_KEY2=os.getenv("OPENROUTER_API_KEY2")
 MODEL_NAME2 = "openai/gpt-oss-120b:free"                                                      # or try: "gpt-3.5-turbo" / "mistral-7b"
 
 # Admin credentials
-ADMIN_EMAIL = "1da23ec414.ec@drait.edu.in"
+ADMIN_EMAIL = "1da22ec190.ec@drait.edu.in"
 ADMIN_PASSWORD = "Admin@2025"
 
 # Initialize authentication database
